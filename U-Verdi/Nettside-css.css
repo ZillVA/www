@@ -32,6 +32,16 @@
     border: solid black 2px;
 }
 
+#bar #info2 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+    top: -100%;
+    background: white;
+    border: solid black 2px;
+}
+
 #bar #calc {
     width: 20%;
     height: 100%;
@@ -39,6 +49,16 @@
     left: 30%;
     top: -200%;
     background: white;
+    border: solid black 2px;
+}
+
+#bar #calc2 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 30%;
+    top: -200%;
+    background: rgb(154, 130, 154);
     border: solid black 2px;
 }
 
@@ -52,6 +72,16 @@
     border: solid black 2px;
 }
 
+#bar #val2 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    top: -300%;
+    background: rgb(154, 130, 154);
+    border: solid black 2px;
+}
+
 #bar #cont {
     width: 20%;
     height: 100%;
@@ -59,6 +89,16 @@
     left: 70%;
     top: -400%;
     background: white;
+    border: solid black 2px;
+}
+
+#bar #cont2 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 70%;
+    top: -400%;
+    background: rgb(154, 130, 154);
     border: solid black 2px;
 }
 
@@ -81,6 +121,24 @@
     background: white;
 }
 
+#txtbox2 {
+    width: 60%;
+    height: 5000px;
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    background: white;
+}
+
+#txtbox4 {
+    width: 65%;
+    height: 5000px;
+    position: fixed;
+    left: 0%;
+    top: 10%;
+    background: white;
+}
+
 #img {
     width: 35%;
     height: 90%;
@@ -89,28 +147,48 @@
     top: 10%;
     background: rgb(155, 155, 155);
 }
+#img2 {
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    background: rgb(155, 155, 155);
+}
+
+#img3 {
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    background: rgb(155, 155, 155);
+}
+
+#img6 {
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    left: 65%;
+    top: 10%;
+    background: rgb(155, 155, 155);
+}
 
 #txt1 {
     text-align: center;
     font-size: larger;
     padding: 5%;
+    color: black;
 }
 
 #txt2 {
     text-align: center;
     font-size: larger;
     padding: 10%;
+    color: black;
 }
 
-#bar1 {
-    width: 100%;
-    height: 10%;
-    background: rgb(77, 77, 100);
-    margin: 0;
-    padding: 0;
-}
-
-#bar1 #logo1 {
+#bar #logo1 {
     width: 10%;
     height: 100%;
     position: relative;
@@ -120,7 +198,7 @@
     border: solid black 2px;
 }
 
-#bar1 #info1 {
+#bar #info1 {
     width: 20%;
     height: 100%;
     position: relative;
@@ -130,7 +208,17 @@
     border: solid black 2px;
 }
 
-#bar1 #calc1 {
+#bar #info3 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 10%;
+    top: -100%;
+    background: rgb(77, 77, 100);
+    border: solid black 2px;
+}
+
+#bar #calc1 {
     width: 20%;
     height: 100%;
     position: relative;
@@ -140,7 +228,17 @@
     border: solid black 2px;
 }
 
-#bar1 #val1 {
+#bar #calc3 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 30%;
+    top: -200%;
+    background: rgb(50, 25, 50);
+    border: solid black 2px;
+}
+
+#bar #val1 {
     width: 20%;
     height: 100%;
     position: relative;
@@ -150,7 +248,17 @@
     border: solid black 2px;
 }
 
-#bar1 #cont1 {
+#bar #val3 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 50%;
+    top: -300%;
+    background: rgb(50, 25, 50);
+    border: solid black 2px;
+}
+
+#bar #cont1 {
     width: 20%;
     height: 100%;
     position: relative;
@@ -160,7 +268,17 @@
     border: solid black 2px;
 }
 
-#bar1 #dark1 {
+#bar #cont3 {
+    width: 20%;
+    height: 100%;
+    position: relative;
+    left: 70%;
+    top: -400%;
+    background: rgb(50, 25, 50);
+    border: solid black 2px;
+}
+
+#bar #dark1 {
     width: 10%;
     height: 100%;
     position: relative;
@@ -179,11 +297,56 @@
     background: rgb(77, 77, 100);
 }
 
+#txtbox3 {
+    width: 60%;
+    height: 5000px;
+    position: fixed;
+    left: 20%;
+    top: 10%;
+    background: rgb(77, 77, 100);
+}
+
+#txtbox5 {
+    width: 65%;
+    height: 5000px;
+    position: fixed;
+    left: 0%;
+    top: 10%;
+    background: rgb(77, 77, 100);
+}
+
 #img1 {
     width: 35%;
     height: 90%;
     position: absolute;
     left: 0%;
+    top: 10%;
+    background: rgb(125, 125, 150);
+}
+
+#img4 {
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    background: rgb(125, 125, 150);
+}
+
+#img5 {
+    width: 20%;
+    height: 90%;
+    position: absolute;
+    left: 80%;
+    top: 10%;
+    background: rgb(125, 125, 150);
+}
+
+#img7 {
+    width: 35%;
+    height: 90%;
+    position: absolute;
+    left: 65%;
     top: 10%;
     background: rgb(125, 125, 150);
 }
