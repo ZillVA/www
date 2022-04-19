@@ -376,3 +376,10 @@
     margin: 5px;
     padding: 5px;
 }
+
+#bigtxt {
+    color: black;
+    text-align: center;
+    margin: 10px;
+    font-size: 50;
+}
